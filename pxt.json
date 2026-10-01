@@ -1,0 +1,30 @@
+{
+    "name": "Clean the Room-basic",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "mbit": "github:lzty634158/yahboom_mbit_en#ec0be625edd52ff7e5e0f4bbc92d43cb3c3205d3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable8.0",
+        "tag": "v8.0.16",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/70751e3ce10c755c0c803f5669b12b52539ce5b0",
+        "target": "9.0.12",
+        "pxt": "12.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
